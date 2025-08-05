@@ -14,7 +14,7 @@ RUN npm ci --only=production
 COPY . .
 
 # Expose port (default NestJS port)
-EXPOSE 3002
+EXPOSE 8080
 
 # Start the NestJS app
 CMD ["npm", "run", "start:prod"]
